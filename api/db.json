@@ -1,0 +1,187 @@
+{
+  "vendors": [
+    {
+      "id": 1,
+      "cod": "000001",
+      "name": "CASSIO MURILO BATISTA"
+    }
+  ],
+  "custommers": [],
+  "groups": [
+    {
+      "id": 1,
+      "cod": "G001",
+      "name": "GRUPO ARGAMASSAS ACI",
+      "comissao": 0.5
+    },
+    {
+      "id": 2,
+      "cod": "REJ",
+      "name": "REJUNTE",
+      "comissao": 0.3
+    },
+    {
+      "id": 3,
+      "cod": "G002",
+      "name": "GRUPO ARGAMASSAS ACII",
+      "comissao": 0.6
+    },
+    {
+      "id": 4,
+      "cod": "G003",
+      "name": "GRUPO ARGAMASSAS ACIII",
+      "comissao": 0.4
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "cod": "ARGCZA2002",
+      "groupCod": "G002",
+      "name": "ARG ITATIUNGA ACII FLEX 20KG PP",
+      "ncm": "32149000"
+    },
+    {
+      "id": 2,
+      "cod": "ARGCZA2007",
+      "groupCod": "G001",
+      "name": "ARG ITATIUNGA ACI 20KG PL",
+      "ncm": "32149000"
+    },
+    {
+      "id": 3,
+      "cod": "ARGCZA2009",
+      "codgroup": "G003",
+      "name": "ARG ITATIUNGA ACIII FLEX 20KG PL",
+      "ncm": "32149000"
+    },
+    {
+      "id": 4,
+      "cod": "REFBGE1501",
+      "codgroup": "REJ",
+      "name": "REJ BEGE FLEX FD 15KG",
+      "ncm": "32149000"
+    },
+    {
+      "id": 5,
+      "cod": "REFBGE3001",
+      "codgroup": "REJ",
+      "name": "REJ BEGE FLEX FD 30KG",
+      "ncm": "32149000"
+    },
+    {
+      "id": 6,
+      "cod": "REFBRO1501",
+      "codgroup": "REJ",
+      "name": "REJ BRANCO FLEX FD 15KG",
+      "ncm": "32149000"
+    },
+    {
+      "id": 7,
+      "cod": "REFBRO3001",
+      "codgroup": "REJ",
+      "name": "REJ BRANCO FLEX FD 30KG",
+      "ncm": "32149000"
+    },
+    {
+      "id": 8,
+      "cod": "REFMFM1501",
+      "codgroup": "REJ",
+      "name": "REJ MARFIM FLEX FD 15KG",
+      "ncm": "32149000"
+    },
+    {
+      "id": 9,
+      "cod": "REFPTG1501",
+      "codgroup": "REJ",
+      "name": "REJ PRETO GRAFITE FLEX FD 15KG",
+      "ncm": "32149000"
+    }
+  ],
+  "sales": [
+    {
+      "id": 1,
+      "filial": "01",
+      "documento": "000061761",
+      "serie": "1",
+      "clienteCod": "000105",
+      "clienteLoja": "01",
+      "item": "01",
+      "productCod": "ARGCZA2007",
+      "groupCod": "G001",
+      "quantidade": 710,
+      "preco": 7.28,
+      "total": 5168.8
+    },
+    {
+      "id": 2,
+      "filial": "01",
+      "documento": "000061761",
+      "serie": "1",
+      "clienteCod": "000105",
+      "clienteLoja": "01",
+      "item": "02",
+      "productCod": "REFBGE1501",
+      "groupCod": "REJ",
+      "quantidade": 6,
+      "preco": 36.85,
+      "total": 221.1
+    },
+    {
+      "id": 3,
+      "filial": "01",
+      "documento": "000061761",
+      "serie": "1",
+      "clienteCod": "000105",
+      "clienteLoja": "01",
+      "item": "03",
+      "productCod": "REFBGE1501",
+      "groupCod": "REJ",
+      "quantidade": 1,
+      "preco": 36.85,
+      "total": 36.85
+    },
+    {
+      "id": 4,
+      "filial": "01",
+      "documento": "000061761",
+      "serie": "1",
+      "clienteCod": "000105",
+      "clienteLoja": "01",
+      "item": "04",
+      "productCod": "REFBGE3001",
+      "groupCod": "REJ",
+      "quantidade": 1,
+      "preco": 60.31,
+      "total": 60.31
+    },
+    {
+      "id": 5,
+      "filial": "01",
+      "documento": "000061761",
+      "serie": "1",
+      "clienteCod": "000105",
+      "clienteLoja": "01",
+      "item": "05",
+      "productCod": "REFBRO1501",
+      "groupCod": "REJ",
+      "quantidade": 7,
+      "preco": 36.85,
+      "total": 257.95
+    },
+    {
+      "id": 6,
+      "filial": "01",
+      "documento": "000061761",
+      "serie": "1",
+      "clienteCod": "000105",
+      "clienteLoja": "01",
+      "item": "05",
+      "productCod": "REFBRO1501",
+      "groupCod": "REJ",
+      "quantidade": 1,
+      "preco": 60.31,
+      "total": 60.31
+    }
+  ]
+}
